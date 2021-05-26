@@ -2,16 +2,23 @@ var readlineSync=require('readline-sync');
 const chalk = require('chalk');
 const log = console.log;
 // -------golbal data
+
 var score=0;
+
 // -------------intro part-------------------
 console.log(chalk.cyan.bold("Hello all.This is Nikhil.\nHope you all are doing safe during this pandemic \nThis quiz is about how well do you know me \n"))
+
 user_name=readlineSync.question("What should I call you?-")
 console.log(chalk.bgBlue("\n Hey " +user_name.toUpperCase()+", Let's get started \n"))
+
 console.log(chalk.green("Here are the rules:\n1. Every correct answer adds one point to the score \n2. There is no penalty for wrong answers.\n"));
+
 // ----------------array part--------------
+
 var arr=[{q:"What's my Surname?-",a:"BELIDE"},{q:"When was I born?\nHint:The day the Father of our Nation was born--",a:"2ND OCTOBER"},{q:"What's my Favourite Movie?-",a:"INTERSTELLAR"},
 {q:"On what level of Neog am I?-",a:"LEVELZERO"},
 {q:"Do I know basics of HTML and CSS?-",a:"YES"}]
+
 // ----------looping ----------------
 for(var i=0;i<arr.length;i++){
   user_answer=readlineSync.question(arr[i].q)
@@ -35,6 +42,4 @@ else{
   console.log("----------\nLooks like you are my Fan!\n----------")
   console.log(chalk.bgBlue("MAY THE FORCE BE WITH YOU"))
 }
-console.log("===========")
-console.log("Hihest scores are: \n1.MyMom: 5 \n2.MyDad: 4 \nIf you have beatn the highest score please take a screenshot and DM me")
-console.log("===========")
+console.log("===========\nHihest scores are: \n1.MyMom: 5 \n2.MyDad: 4 \nIf you have beatn the highest score please take a screenshot and DM me\n===========")
