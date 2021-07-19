@@ -1,6 +1,8 @@
-# DoYouKnowMe
+## DoYouKnowMe
+### This is CLI based game that test your knowledege on how much you know about me
 #### Yeah? Play the quiz. Score a Fifer and ping me
 
+##### Here are the question and answers
     1.What's my Surname?-"BELIDE"
     2.When was I born? "2ND OCTOBER"
     3.What's my Favourite Movie?"INTERSTELLAR"
