@@ -31,6 +31,7 @@ for(let i=0;i<arr.length;){
   if(user_answer.length>0){
     if(user_answer.toUpperCase()===arr[i].a){
     console.log(chalk.green("Correct Answer\n"))
+    
     score++
     }
     else{
@@ -41,7 +42,7 @@ for(let i=0;i<arr.length;){
   }else{
     console.log(chalk.red("Please enter an answer."))
   }
-  
+  console.log("Current score is " + score)
 }
 // ---------------other stuff---------
 
