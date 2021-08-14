@@ -20,7 +20,7 @@ console.log(chalk.green("Here are the rules:\n1. Every correct answer adds one p
 // ----------------array part--------------
 
 let arr=[{q:"What's my Surname?-",a:"BELIDE"},
-{q:"When was I born?\nHint : The day the Father of our Nation was born--",a:"2ND OCTOBER"},
+{q:"Wha is my favourite Bike?-",a:"HIMALAYAN"},
 {q:"What's my Favourite Movie?-",a:"INTERSTELLAR"},
 {q:"Where am I working right now?-",a:"AMAZON"},
 {q:"Where do I live?\n Hint : The best BIRYANI is available here.",a:"HYDERABAD"}]
