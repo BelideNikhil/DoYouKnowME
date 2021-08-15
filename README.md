@@ -1,6 +1,6 @@
-## DoYouKnowMe
+## DoYouKnowMe?
 ### This is CLI based game that test your knowledege on how much you know about me.
-#### Yeah? Play the quiz. Score a Fifer and ping me.
+#### Play the quiz and drop me a message on what you scored.
 
 ##### Here are the question and answers
     1.What's my Surname?-"BELIDE"
